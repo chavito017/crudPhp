@@ -1,8 +1,8 @@
 <?php
 
-session_start();
+session_start(); // Inicia una sesión para trabajar con variables de sesión.
 
-// Conexion a la base de datos 
+// Conexión a la base de datos utilizando mysqli_connect()
 $conn  = mysqli_connect(
     'localhost',
     'root',
